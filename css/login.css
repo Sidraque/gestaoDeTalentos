@@ -1,0 +1,122 @@
+#banner-login {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 993px) {
+    #banner-login {
+        height: 150px;
+        width: 100%;
+    }
+    .photo-login {
+        margin-top: -80px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.photo-login {
+    margin-top: 30px;
+    width: 180px;
+    height: 200px;
+}
+
+#titulo {
+    margin-top: -5px;
+    font-size: 28pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #B8B8B8;
+}
+
+#subtitulo {
+    margin-top: -10px;
+    font-size: 10pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #B8B8B8;
+}
+
+#input {
+    width: 250px;
+    border: none;
+    background-color: #E6E7E9;
+    border-radius: 25px;
+}
+
+#input-button {
+    background-image: linear-gradient(to bottom right, #5A22A9, rgb(155, 38, 228));
+    border: none;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#input-button:hover {
+    background-image: linear-gradient(to bottom right, #4D8AEB, #5E71E4);
+}
+
+.col input[type="text"] {
+    padding-left: 30px;
+}
+
+.col input[type="password"] {
+    padding-left: 30px;
+}
+
+.col input[placeholder] {
+    color: #981BD9;
+}
+
+::-webkit-input-placeholder {
+    color: #981BD9;
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
+    color: #981BD9;
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #981BD9;
+}
+
+ :-ms-input-placeholder {
+    color: #981BD9;
+}
+
+.eqc a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #B8B8B8;
+    margin-bottom: 15px;
+}
+
+.eqc a:hover {
+    color: #4D8AEB;
+    transition: 0.7s;
+}
+
+.form-data-group {
+    display: table;
+}
+
+.form-data-group .form-data {
+    border-right: 0;
+    padding: 1rem;
+}
+
+.form-data-group-text {
+    background: #F2F2F2;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    display: table-cell;
+    font-size: .8rem;
+    line-height: 0;
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 1%;
+}

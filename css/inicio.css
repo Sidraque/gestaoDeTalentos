@@ -1,0 +1,47 @@
+.logo img{
+    margin: 10px 0;
+    width: 200px;
+    height: 40px;
+}
+
+.nav-lateral{
+    height: 100%;
+}
+
+@media (max-width: 768px){
+    .nav-lateral{
+        height: 50%;
+    }
+    
+    .col-9{
+        flex: 0 0 95%;
+        max-width: 95%;
+    }
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffffff;
+    background-color: rgb(69, 3, 212);
+}
+
+a{
+    color: #B8B8B8;
+    font-size: 13pt;
+}
+
+a:hover{
+ color: #ffffff;
+}
+
+.flexivel{
+    display: flex;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+h6{
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+#banner-login {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 993px) {
+    #banner-login {
+        height: 150px;
+        width: 100%;
+    }
+    .photo-login {
+        margin-top: -80px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.photo-login {
+    margin-top: 30px;
+    width: 100px;
+    height: 130px;
+}
+
+#titulo {
+    margin-top: -5px;
+    font-size: 28pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #B8B8B8;
+}
+
+#subtitulo {
+    margin-top: -10px;
+    font-size: 10pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #B8B8B8;
+}
